@@ -1,0 +1,55 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+    font-family: var(--mainFont);
+}
+
+:root {
+    /* Colors */
+    --primary: #171717;
+    --secondary: #ededed;
+    --tertiary: #ababab;
+
+    /* Measures */
+    --mainMeasure: 1em;
+    --secMeasure: 2em;
+    --rdMeasure: 0.5em;
+    --thMeasure: 0.2em;
+    --fontSizeTitle: 1.3em;
+    --fontSizeParagraph: 1.1em;
+}
+
+/* ------------------------------------------------ */
+
+/* MAIN */
+main {}
+
+/* TOP */
+#changelog-top {}
+#changelog-top .container-changelog-top-texts {}
+.container-changelog-top-texts .changelog-title{}
+.container-changelog-top-texts .changelog-desc{}
+
+
+/* MIDDLE */
+#changelog-middle {}
+#changelog-middle #changelog-dates {}
+#changelog-middle #changelog-dates .time-period{}
+
+#changelog-middle .lines {}
+
+#changelog-middle #desc {}
+#changelog-middle #desc .container-holder-changes {}
+#changelog-middle #desc .container-holder-changes .changes{}
+
+/* BOTTOM */
+#changelog-bottom {}
+.btn {}
