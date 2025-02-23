@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -25,36 +26,78 @@
     --thMeasure: 0.2em;
     --fontSizeTitle: 1.3em;
     --fontSizeParagraph: 1.1em;
+
+    /* Fonts */
+    --mainFont: "Outfit", serif;
+}
+
+body {
+    min-height: 100vh;
+    /* border: 3px solid red; */
+    display: grid;
+    place-items: center;
 }
 
 /* ------------------------------------------------ */
 
 /* MAIN */
 main {
-    min-height: 100vh;
-    border: 3px solid red;
+    /* min-height: 100vh;
     display: grid;
-    place-items: center;
+    place-items: center; */
 }
 
 /* TOP */
-#changelog-top {}
-#changelog-top .container-changelog-top-texts {}
-.container-changelog-top-texts .changelog-title{}
-.container-changelog-top-texts .changelog-desc{}
+#changelog-top {
+    /* border: 3px solid blue; */
+    padding: var(--secMeasure) 0 var(--secMeasure) 0;
+}
+
+#changelog-top .container-changelog-top-texts {
+    text-align: center;
+}
+
+.container-changelog-top-texts .changelog-title{
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.container-changelog-top-texts .changelog-desc {
+    color: var(--tertiary);
+}
 
 
 /* MIDDLE */
-#changelog-middle {}
+#changelog-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #changelog-middle #changelog-dates {}
 #changelog-middle #changelog-dates .time-period{}
 
-#changelog-middle .lines {}
+.line {
+    border: 3px solid red;
+    margin: 2em;
+    height: 30em;
+}
+
+.line::before, .line::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 #changelog-middle #desc {}
 #changelog-middle #desc .container-holder-changes {}
 #changelog-middle #desc .container-holder-changes .changes{}
 
 /* BOTTOM */
-#changelog-bottom {}
+#changelog-bottom {
+    /* margin-top: 5em; */
+}
 .btn {}
