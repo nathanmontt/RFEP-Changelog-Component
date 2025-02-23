@@ -30,7 +30,12 @@
 /* ------------------------------------------------ */
 
 /* MAIN */
-main {}
+main {
+    min-height: 100vh;
+    border: 3px solid red;
+    display: grid;
+    place-items: center;
+}
 
 /* TOP */
 #changelog-top {}
