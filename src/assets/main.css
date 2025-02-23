@@ -87,14 +87,43 @@ main {
     height: 30em;
 }
 
-/* .line::before, .line::after {
+
+.dot {
     position: absolute;
-    content: '';
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-} */
+    border: var(--diffMeasure) solid var(--primary);
+    border-radius: 100%;
+    background-color: var(--primary);
+    width: var(--mainMeasure);
+    height: var(--mainMeasure);
+    top: 17.9em;
+    /* bottom: 0; */
+    right: 53.25em;
+    /* left: 0; */
+}
+
+.dot:nth-child(1) {
+    margin-top: 19.5em;
+}
+
+.dot:nth-child(2) {
+    margin-top: 16.3em;
+}
+
+.dot:nth-child(3) {
+    margin-top: 13em;
+}
+
+.dot:nth-child(4) {
+    margin-top: 9.7em;
+}
+
+.dot:nth-child(5) {
+    margin-top: 6.4em;
+}
+
+.dot:nth-child(6) {
+    margin-top: 3.2em;
+}
 
 #changelog-middle #desc {}
 #changelog-middle #desc .container-holder-changes {}
