@@ -24,6 +24,7 @@
     --secMeasure: 2em;
     --rdMeasure: 0.5em;
     --thMeasure: 0.2em;
+    --diffMeasure: 0.01em;
     --fontSizeTitle: 1.3em;
     --fontSizeParagraph: 1.1em;
 
@@ -75,10 +76,13 @@ main {
 }
 
 #changelog-middle #changelog-dates {}
-#changelog-middle #changelog-dates .time-period{}
+
+#changelog-middle #changelog-dates .time-period {
+    margin-top: var(--secMeasure);
+}
 
 .line {
-    border: 3px solid red;
+    border: var(--diffMeasure) solid var(--primary);
     margin: 2em;
     height: 30em;
 }
@@ -94,7 +98,10 @@ main {
 
 #changelog-middle #desc {}
 #changelog-middle #desc .container-holder-changes {}
-#changelog-middle #desc .container-holder-changes .changes{}
+
+#changelog-middle #desc .container-holder-changes .changes {
+    margin-top: var(--secMeasure);
+}
 
 /* BOTTOM */
 #changelog-bottom {
