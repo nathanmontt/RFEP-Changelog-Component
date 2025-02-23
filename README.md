@@ -14,7 +14,7 @@ Projeto de Frontend do site <a href="https://roadmap.sh/">roadmap.sh</a>
 
 <h1 id="about">Sobre o Projeto</h1>
 
-Como o nome do repositório menciona, **RFEP-Changelog-Component** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é montar, como o próprio nome já diz, um *changelog*. Um *Changelog* seria um log ou um *tracking* de todas as mudanças que aconteceram dentro de um projeto/software.
+Como o nome do repositório menciona, **RFEP-Changelog-Component** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é montar, como o próprio nome já diz, um *changelog component*. Um *Changelog* seria um log ou um *tracking* de todas as mudanças que aconteceram dentro de um projeto/software.
 
 
 <h1 id="abilities"> Habilidades Necessárias </h1>
@@ -52,7 +52,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
 **Hosting** | <a href="https://rikublock.dev/docs/tutorials/github-pages-cloudflare/">Set up GitHub Pages with Cloudflare and a Custom Domain</a> <br> <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/">Secure and fast GitHub Pages with CloudFlare</a>
-**roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="">aqui</a>
+**roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="https://roadmap.sh/projects/changelog-component">aqui</a>
 
 <h1 id="credits"> Créditos </h1>
 
