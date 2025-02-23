@@ -75,8 +75,6 @@ main {
     align-items: center;
 }
 
-#changelog-middle #changelog-dates {}
-
 #changelog-middle #changelog-dates .time-period {
     margin-top: var(--secMeasure);
 }
@@ -125,15 +123,11 @@ main {
     margin-top: 3.2em;
 }
 
-#changelog-middle #desc {}
-#changelog-middle #desc .container-holder-changes {}
-
 #changelog-middle #desc .container-holder-changes .changes {
     margin-top: var(--secMeasure);
 }
 
 /* BOTTOM */
-#changelog-bottom {}
 
 .btn {
     border-radius: 1em;
